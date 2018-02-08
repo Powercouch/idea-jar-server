@@ -1,23 +1,26 @@
 {
-  "name": "idea-jar-server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "nodemon .",
-    "start": "node ."
-  },
-  "author": "Zack Harley",
-  "license": "MIT",
-  "dependencies": {
-    "body-parser": "^1.18.2",
-    "dotenv": "^5.0.0",
-    "express": "^4.16.2",
-    "lodash": "^4.17.5",
-    "mongoose": "^5.0.3",
-    "slugify": "^1.2.9"
-  },
-  "devDependencies": {
-    "nodemon": "^1.14.12"
-  }
+    "name": "idea-jar-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon .",
+        "start": "node ."
+    },
+    "engines": {
+        "node": ">=8.9.4"
+    },
+    "author": "Zack Harley",
+    "license": "MIT",
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "dotenv": "^5.0.0",
+        "express": "^4.16.2",
+        "lodash": "^4.17.5",
+        "mongoose": "^5.0.3",
+        "slugify": "^1.2.9"
+    },
+    "devDependencies": {
+        "nodemon": "^1.14.12"
+    }
 }
